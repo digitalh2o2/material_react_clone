@@ -1,3 +1,96 @@
-.tabs-main {
-  padding: 15px !important;
+/*
+  ====================
+  Navigation
+  ====================
+*/
+.appbar-content {
+  padding-left: 100px !important;
+}
+
+.tabs {
+  padding: 0 30px !important;
+}
+
+/*
+  ====================
+  User Profile
+  ====================
+*/
+
+.profile-container {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  background: #29B6F6;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+
+}
+
+#profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 100px;
+  color: white;
+
+  h1 {
+    font-size: 3em;
+  }
+
+}
+
+#user-avatar {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-right: 100px;
+  margin-top: -150px;
+  float: right;
+
+  img {
+    max-width: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+  }
+
+  /* need to create media query to remove profile picture at certain width */
+}
+
+/*
+  ====================
+  Main Container
+  ====================
+*/
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 600px;
+
+  #left-sidebar {
+    flex-basis: 30%;
+    padding-left: 100px;
+    background-color: #F5F5F5;
+  }
+
+  #right-sidebar {
+    flex-basis: 60%;
+    margin: 0 auto;
+  }
+
+}
+
+
+/*
+  ====================
+  Misc
+  ====================
+*/
+
+.subject-color {
+  color: #29B6F6;
 }

@@ -1,18 +1,15 @@
 import React from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs'
-
+import Profile from './Profile';
+import Hello from './Hello';
 
 class MainPage extends React.Component{
   render(){
     return(
-      <Tabs >
         <div>
-          <Tab label="Hello" className="tabs-main"></Tab>
-          <Tab label="Resume" className="tabs-main"></Tab>
-          <Tab label="PortFolio" className="tabs-main"></Tab>
+          <Profile />
+          <Hello />
         </div>
-
-      </Tabs>
     )
   }
 }
