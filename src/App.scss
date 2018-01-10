@@ -22,9 +22,8 @@
   width: 100%;
   position: relative;
   display: inline-block;
-  background: #29B6F6;
+  background: #00ACC1;
   box-shadow: 0 4px 18px rgba(0,0,0,0.25);
-
 }
 
 #profile-info {
@@ -36,8 +35,10 @@
   padding-left: 100px;
   color: white;
 
+
   h1 {
     font-size: 3em;
+    font-weight: 100;
   }
 
 }
@@ -69,15 +70,18 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 600px;
+  height: auto;
+
 
   #left-sidebar {
-    flex-basis: 30%;
+    flex-basis: 25%;
     padding-left: 100px;
     background-color: #F5F5F5;
+    box-shadow: 5px 0 20px rgba(0,0,0,0.25);
   }
 
   #right-sidebar {
+    flex-direction: row;
     flex-basis: 60%;
     margin: 0 auto;
   }
@@ -87,10 +91,45 @@
 
 /*
   ====================
+  Social Containers
+  ====================
+*/
+
+.social-container {
+  display: inline-block;
+  height: 125px;
+  width: 100%;
+  background: #00ACC1;
+  box-shadow: 0 -3px 20px rgba(0,0,0,0.25);
+
+  .border {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    width: 60%;
+    margin: auto;
+  }
+
+  .social-icons {
+    color: white;
+  }
+
+
+}
+
+
+
+
+
+/*
+  ====================
   Misc
   ====================
 */
 
 .subject-color {
-  color: #29B6F6;
+  color: #00ACC1;
 }
