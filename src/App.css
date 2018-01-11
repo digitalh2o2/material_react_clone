@@ -56,7 +56,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: auto; }
+  height: 800px; }
   .main-container #left-sidebar {
     flex-basis: 25%;
     padding-left: 100px;
@@ -89,6 +89,22 @@
     margin: auto; }
   .social-container .social-icons {
     color: white; }
+
+/*
+  ====================
+  Footer
+  ====================
+*/
+.footer {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  background: #00BCD4; }
+  .footer .personal-info {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
 
 /*
   ====================

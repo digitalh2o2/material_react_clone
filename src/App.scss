@@ -70,7 +70,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: auto;
+  height: 800px;
 
 
   #left-sidebar {
@@ -117,7 +117,26 @@
     color: white;
   }
 
+}
 
+/*
+  ====================
+  Footer
+  ====================
+*/
+
+.footer {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  background: #00BCD4;
+
+  .personal-info {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 
