@@ -3,7 +3,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MainPage from './MainPage'
 import Resume from './Resume';
 import Portfolio from './Portfolio';
-import Nav from './Nav';
 import SocialLinks from './SocialLinks';
 import Footer from './Footer';
 import './../App.css';

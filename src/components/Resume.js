@@ -6,7 +6,7 @@ class Resume extends React.Component{
   render(){
     return(
       <div>
-        <Nav />
+        <Nav value={1}/>
         <Profile />
         Resume
       </div>

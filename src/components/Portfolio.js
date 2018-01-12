@@ -6,7 +6,7 @@ class Portfolio extends React.Component{
   render(){
     return(
       <div>
-        <Nav />
+        <Nav value={2}/>
         <Profile />
       </div>
     )
