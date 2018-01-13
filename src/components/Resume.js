@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Profile from './Profile';
 import Statement from './Statement';
+import History from './History';
 import TextField from 'material-ui/TextField';
 import LinearProgress from 'material-ui/LinearProgress';
 
@@ -17,8 +18,6 @@ class Resume extends React.Component{
             <h2 className="subject-color">Personal</h2>
               <h4>Name: <TextField /></h4>
               <h4>Birthday: <TextField /></h4>
-              <h4>Relationship: <TextField /></h4>
-              <h4>Nationality: <TextField /></h4>
               <h4>Languages: <TextField /></h4>
               <h4>Telephone: <TextField /></h4>
 
@@ -40,14 +39,14 @@ class Resume extends React.Component{
 
             <h4>SASS:
               <LinearProgress mode="determinate"
-                value={90}
-                style={{width: '75%'}}
+                value={70}
+                style={{width: '80%'}}
               />
             </h4>
 
             <h4>JavaScript:
               <LinearProgress mode="determinate"
-                value={80}
+                value={65}
                 style={{width: '80%'}}
               />
             </h4>
@@ -84,17 +83,22 @@ class Resume extends React.Component{
               </div>
               <div className="hobbie-icons">
                 <i className="material-icons">fitness_center</i>
-                <p>Working Out</p>
+                <p>Fitness</p>
               </div>
               <div className="hobbie-icons">
                 <i className="material-icons">videogame_asset</i>
                 <p>Videogames</p>
               </div>
+              <div className="hobbie-icons">
+                <i className="material-icons">camera_alt</i>
+                <p>Photography</p>
+              </div>
+
             </div>
           </div>
 
           <div id="right-sidebar">
-
+            <History />
           </div>
         </div>
       </div>
