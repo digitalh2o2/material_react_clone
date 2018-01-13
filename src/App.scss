@@ -70,12 +70,13 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 800px;
+  
 
 
   #left-sidebar {
     flex-basis: 25%;
     padding-left: 100px;
+    padding-top: 25px;
     background-color: #F5F5F5;
     box-shadow: 5px 0 20px rgba(0,0,0,0.25);
   }
@@ -84,6 +85,7 @@
     flex-direction: row;
     flex-basis: 60%;
     margin: 0 auto;
+    padding-top: 25px;
   }
 
 }
@@ -122,6 +124,28 @@
 
 /*
   ====================
+  Statement Container
+  ====================
+*/
+
+.statement-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background: #616161;
+
+  p {
+    color: white;
+    width: 88%;
+  }
+}
+
+
+/*
+  ====================
   Footer
   ====================
 */
@@ -140,10 +164,6 @@
   }
 }
 
-
-
-
-
 /*
   ====================
   Misc
@@ -152,4 +172,24 @@
 
 .subject-color {
   color: #00ACC1;
+}
+
+.hobbie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .hobbie-icons {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .material-icons {
+    font-size: 2.5em !important;
+    background: #00ACC1;
+    border-radius: 10%;
+    color: white !important;
+  }
+
 }
