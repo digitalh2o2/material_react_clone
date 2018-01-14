@@ -6,6 +6,8 @@ import {
   StepContent,
 } from 'material-ui/Stepper';
 import CircularProgress from 'material-ui/CircularProgress';
+import { Progress } from 'react-sweet-progress';
+import "react-sweet-progress/lib/style.css";
 
 
 class History extends React.Component{
@@ -43,47 +45,66 @@ class History extends React.Component{
           <h2 className="subject-color">Professional Skills</h2>
           <div className="professional-container">
             <div className="progress-icon">
-              <CircularProgress
-                mode="determinate"
-                size={100}
-                thickness={5}
-                value={100}
-              />
-              <p>Design</p>
-            </div>
-            <div className="progress-icon">
-              <CircularProgress
-                mode="determinate"
-                size={100}
-                thickness={5}
-                value={90}
-              />
-              <p>Concepts</p>
-            </div>
-            <div className="progress-icon">
-              <CircularProgress
-                mode="determinate"
-                size={100}
-                thickness={5}
-                value={90}
-              />
-              <p>OOP</p>
-            </div>
-            <div className="progress-icon">
-              <CircularProgress
-                mode="determinate"
-                size={100}
-                thickness={5}
-                value={90}
+              <Progress
+                type="circle"
+                theme={{
+                  success: {
+                    symbol: '100%',
+                    color: '#00ACC1'
+                  },
+                  active: {
+                    color: '#00ACC1'
+                  }
+                }}
+                percent={100}
               />
               <p>Teamwork</p>
             </div>
             <div className="progress-icon">
-              <CircularProgress
-                mode="determinate"
-                size={100}
-                thickness={5}
-                value={90}
+              <Progress
+                type="circle"
+                theme={{
+                  active: {
+                    color: '#00ACC1'
+                  }
+                }}
+                percent={80}
+              />
+              <p>Concepts</p>
+            </div>
+            <div className="progress-icon">
+              <Progress
+                type="circle"
+                theme={{
+                  active: {
+                    color: '#00ACC1'
+                  }
+                }}
+                percent={70}
+              />
+              <p>OOP</p>
+            </div>
+            <div className="progress-icon">
+              <Progress
+                type="circle"
+                theme={{
+                  active: {
+                    color: '#00ACC1'
+                  }
+                }}
+                percent={70}
+              />
+              <p>Design</p>
+            </div>
+            <div className="progress-icon">
+              <Progress
+                type="circle"
+                theme={{
+                  active: {
+                    color: '#00ACC1'
+                  }
+                }}
+                percent={70}
               />
               <p>Management</p>
             </div>

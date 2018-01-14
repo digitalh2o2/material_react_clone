@@ -181,6 +181,33 @@
   }
 }
 
+
+/*
+  ====================
+  Portfolio Page / Containers
+  ====================
+*/
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+
+  img {
+    max-height: 100%;
+    width: 90%;
+  }
+
+  .specific-project-container {
+    width: 40%;
+    padding: 15px;
+  }
+
+  .one {
+    padding-left: 100px;
+  }
+}
+
 /*
   ====================
   Misc
