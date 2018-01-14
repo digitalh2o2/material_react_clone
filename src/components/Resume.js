@@ -21,51 +21,54 @@ class Resume extends React.Component{
               <h4>Languages: <TextField /></h4>
               <h4>Telephone: <TextField /></h4>
 
+            {/* Software */}
+
             <h2 className="subject-color">Software</h2>
 
             <h4>Html:
               <LinearProgress mode="determinate"
                 value={100}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <h4>CSS:
               <LinearProgress mode="determinate"
                 value={90}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <h4>SASS:
               <LinearProgress mode="determinate"
                 value={70}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <h4>JavaScript:
               <LinearProgress mode="determinate"
                 value={65}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <h4>React:
               <LinearProgress mode="determinate"
                 value={50}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <h4>Angular:
               <LinearProgress mode="determinate"
                 value={50}
-                style={{width: '80%'}}
+                style={{width: '60%'}}
               />
             </h4>
 
             <br></br>
+            {/* Hobbies */}
 
             <h2 className="subject-color">Hobbies</h2>
             <div className="hobbie-container">
@@ -84,14 +87,6 @@ class Resume extends React.Component{
               <div className="hobbie-icons">
                 <i className="material-icons">fitness_center</i>
                 <p>Fitness</p>
-              </div>
-              <div className="hobbie-icons">
-                <i className="material-icons">videogame_asset</i>
-                <p>Videogames</p>
-              </div>
-              <div className="hobbie-icons">
-                <i className="material-icons">camera_alt</i>
-                <p>Photography</p>
               </div>
 
             </div>

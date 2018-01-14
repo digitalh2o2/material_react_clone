@@ -7,10 +7,14 @@ import {
 } from 'material-ui/Stepper';
 import CircularProgress from 'material-ui/CircularProgress';
 
+
 class History extends React.Component{
   render(){
     return(
       <div>
+
+        {/* Work History */}
+
         <h2 className="subject-color">Work</h2>
         <Stepper orientation="vertical">
           <Step active={true}>
@@ -32,6 +36,9 @@ class History extends React.Component{
             </StepContent>
           </Step>
         </Stepper>
+
+        {/* Professional Skills */}
+
         <div>
           <h2 className="subject-color">Professional Skills</h2>
           <div className="professional-container">
@@ -82,6 +89,28 @@ class History extends React.Component{
             </div>
           </div>
         </div>
+
+        {/* Education */}
+
+        <div>
+          <h2 className="subject-color">Education</h2>
+          <Stepper orientation="vertical">
+            <Step active={true}>
+              <StepLabel>ABC UNIVERSITY -- Sometown, NY • 2005 - 2007</StepLabel>
+              <StepContent>
+                <p>MS in Software Engineering Candidate</p>
+              </StepContent>
+            </Step>
+            <Step active={true}>
+              <StepLabel>DEF UNIVERSITY -- Sometown, NJ
+ • 1999 - 2003</StepLabel>
+              <StepContent>
+                <p>BS in Computer Information Science</p>
+              </StepContent>
+            </Step>
+          </Stepper>
+        </div>
+
       </div>
     )
   }

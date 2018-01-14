@@ -102,7 +102,8 @@
   flex-direction: row;
   text-align: center; }
   .professional-container .progress-icon {
-    padding: 5px; }
+    padding: 10px;
+    accentColor: red; }
 
 /*
   ====================
@@ -149,6 +150,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 50%;
   justify-content: space-around;
   align-items: flex-start; }
   .hobbie-container .hobbie-icons {
