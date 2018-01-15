@@ -5,7 +5,6 @@ import {
   StepLabel,
   StepContent,
 } from 'material-ui/Stepper';
-import CircularProgress from 'material-ui/CircularProgress';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 

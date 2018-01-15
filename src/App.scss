@@ -40,7 +40,6 @@
     font-size: 3em;
     font-weight: 100;
   }
-
 }
 
 #user-avatar {
@@ -71,8 +70,6 @@
   flex-wrap: wrap;
   flex-direction: row;
 
-
-
   #left-sidebar {
     flex-basis: 25%;
     padding-left: 100px;
@@ -87,13 +84,12 @@
     margin: 0 auto;
     padding-top: 25px;
   }
-
 }
 
 
 /*
   ====================
-  Social Containers
+  Social Links Component
   ====================
 */
 
@@ -118,6 +114,19 @@
   .social-icons {
     text-align: center;
     color: white;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+      }
+
+      &:active {
+        color: white;
+      }
+    }
   }
 
 }
@@ -141,7 +150,7 @@
 
 /*
   ====================
-  Statement Container
+  Statement Component
   ====================
 */
 
@@ -153,6 +162,7 @@
   height: 150px;
   width: 100%;
   background: #616161;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
 
   p {
     color: white;
@@ -184,7 +194,7 @@
 
 /*
   ====================
-  Portfolio Page / Containers
+  Portfolio Component / Containers
   ====================
 */
 
@@ -238,5 +248,4 @@
     border-radius: 10%;
     color: white !important;
   }
-
 }

@@ -20,7 +20,7 @@ function Portfolio(){
             </p>
             <p><a href="https://www.example.com" className="subject-color">www.example.com/project1</a></p>
           </div>
-          <img src={project1} alt="image" />
+          <img src={project1} alt="Project 1" />
         </div>
 
         <div className="project-container">

@@ -70,7 +70,7 @@
 
 /*
   ====================
-  Social Containers
+  Social Links Component
   ====================
 */
 .social-container {
@@ -91,6 +91,13 @@
   .social-container .social-icons {
     text-align: center;
     color: white; }
+    .social-container .social-icons a {
+      color: white;
+      text-decoration: none; }
+      .social-container .social-icons a:hover {
+        color: white; }
+      .social-container .social-icons a:active {
+        color: white; }
 
 /*
   ====================
@@ -107,7 +114,7 @@
 
 /*
   ====================
-  Statement Container
+  Statement Component
   ====================
 */
 .statement-container {
@@ -117,7 +124,8 @@
   align-items: center;
   height: 150px;
   width: 100%;
-  background: #616161; }
+  background: #616161;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25); }
   .statement-container p {
     color: white;
     width: 88%; }
@@ -140,7 +148,7 @@
 
 /*
   ====================
-  Portfolio Page / Containers
+  Portfolio Component / Containers
   ====================
 */
 .project-container {
